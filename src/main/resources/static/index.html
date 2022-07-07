@@ -428,7 +428,7 @@
 
         // 메모를 삭제합니다.
         function deleteOne(id) {
-            let password = $(`#${id}-password`).val();
+            let password = $(`#${id}-pw`).val();
             let data = {"password":password};
             $.ajax({
                 type: "DELETE",
